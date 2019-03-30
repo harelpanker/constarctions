@@ -94,7 +94,7 @@ h1 {
   }
 
   &:after {
-    content: 'Have Fun';
+    content: 'Drag and hit';
     position: absolute;
     bottom: -50px;
     left: 50%;
@@ -169,4 +169,32 @@ h1 {
 
 @keyframes explodeB {
   100% { transform: scale(2.5); }
+}
+
+footer {
+  position: absolute;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 0;
+  width: 100%;
+  height: 9rem;
+  color: #fff;
+  z-index: 2;
+}
+h3, li {
+  letter-spacing: 4px;
+  padding: 7px;
+}
+li {
+  display: inline;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: solid 1px rgba(255,255,255,0.5);
+}
+ul {
+  list-style-type: none;
+  flex: 1 0 auto;
 }
